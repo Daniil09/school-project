@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="see">
+        <p><b>1. После какого класса вы уходите</b></p>
+        <p>
+            <input onclick="begintimer()" type="radio" value="12" name="c1" />после 9
+            <input onclick="begintimer()" type="radio" value="32" name="c1" />После 11
+        </p>
+        <p><b>2.На каке направление вы хотите идти</b></p>
+        <p>
+            <input type="radio" value="11" name="c2" />Гуманитарное
+            <input type="radio" value="31" name="c2" />Физико-математическое
+            <input type="radio" value="31" name="c2" />Архитектуркное
+            <input type="radio" value="31" name="c2" />Химико-биологическое
+        </p>
+        <p><b>3.В какой город вы планируете поступать</b></p>
+        <p>
+            <input type="radio" value="11" name="c3" />Тюмень
+            <input type="radio" value="31" name="c3" />Питер
+            <input type="radio" value="31" name="c3" />Москва
+        </p>
+
+        <br /><br /><br />
+        <p><input id="btn" onclick="processForm()" type="button" value="Посмотреть результаты теста" /></p>
+        <br /><br />
+        <!-- Создайте текстовую область для хранения результатов тестирования -->
+        <p><textarea style="width: 500px" name="answer" rows="6" cols="50"></textarea></p>
+    </form>
+
+</body>
+
+</html>
